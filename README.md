@@ -1,6 +1,6 @@
 # PurpleTreeSoftware.Currency
 
-User control for displaying currency values .Net C# UWP applications
+User control for displaying currency values in .Net C# UWP applications
 
 
 Add a reference to your project
