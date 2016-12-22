@@ -13,7 +13,7 @@ Then add a namespace to your xaml page
 xmlns:currency="using:PurpleTreeSoftware.Currency"
 ```
 
-Then add the controls to your xaml page. Update the x:Bind path to point to your variable. 
+Then add the controls to your xaml page. Note to update the x:Bind path to point to your variable. 
 Decimal places to display are also specified here.
 
 ```
