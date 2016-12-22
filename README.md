@@ -19,7 +19,7 @@ Decimal places to display are also specified here.
 ```
   <currency:EditBox x:Name="CurrencyText"  CurrencyValue="{x:Bind CurrencyDecimalValue, Mode=TwoWay}" DecimalPlaces="2"  />
   
-  <currency:DisplayBox x:Name="CurrencyDisplay" CurrencyValue="{Binding CurrencyDecimalValue, Mode=OneWay}" DecimalPlaces="2" />
+  <currency:DisplayBox x:Name="CurrencyDisplay" CurrencyValue="{x:Bind CurrencyDecimalValue, Mode=OneWay}" DecimalPlaces="2" />
                                     
 ```   
 
