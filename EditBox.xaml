@@ -12,7 +12,7 @@
     x:Name="rootUserControl">
 
 
-    <TextBox x:Name="CurrencyTextBox" Text="{x:Bind common:helper.ConvertDecimalToString(CurrencyValue,DecimalPlaces), Mode=TwoWay, BindBack=SetCurrencyValueFromString}" FontSize="{x:Bind rootUserControl.FontSize}"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+    <TextBox x:Name="CurrencyTextBox" Text="{x:Bind common:helper.ConvertDecimalToString(CurrencyValue,DecimalPlaces), Mode=TwoWay, BindBack=SetCurrencyValueFromString}" InputScope="CurrencyAmount" FontSize="{x:Bind rootUserControl.FontSize}"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
    
         
 </UserControl>
